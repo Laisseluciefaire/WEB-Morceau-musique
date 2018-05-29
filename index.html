@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Excercice Youtube Lyrics</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+          overflow: hidden;
+          font-size: 7vh;
+          line-height: 2;
+          background: pink;
+					font-family:serif;
+        }
+        #youtube-icon {
+          width: 64px;
+          height: 64px;
+        }
+        /* Positionnement */
+        #paroles {
+          position: absolute;
+          width: 60%;
+          top: 90vh;
+          left: 20%;
+
+        }
+        /* Animation */
+        /* Définition des Keyframes */
+
+        @keyframes couleur {
+          0% {color: white;}
+					30% {color: black;}
+          50% {color: white;}
+					80% {color: black;}
+          100% {color: white;}
+        }
+        @keyframes mouvement {
+          from {
+            top: 100vh; /* Position initiale */
+          }
+          to {
+            top: -500vh; /* Position finale */
+          }
+        }
+        /* On les applique */
+        #paroles {
+          animation: couleur 40s infinite, mouvement 60s linear infinite;
+        }
+    </style>
+  </head>
+  <body>
+
+    <div id="paroles">
+			<br>
+			<br>
+			<br>
+      Tout' seule sur cett' plage<br>
+      Pauvr' petit' fill' riche<br>
+      Tout' seule si seul'<br>
+      Pauvr' petit' fill' riche<br>
+			<br>
+      Tu pleur's parc' que tu n'as pas le droit<br>
+      D'épouser un pauvr' garcon comm' moi<br>
+      Pauvr' peti' fill' riche humm humm<br>
+      <br>
+      Tout' seule sur cett' plage<br>
+      Pauvr' petit' fill' riche<br>
+      Tout' seule si seul'<br>
+      Pauvr' petit' fill' riche<br>
+			<br>
+			Tes parents croyaient qu'on s'amusait<br>
+			Ils n'ont pas voulu croir' qu'on s'aimait<br>
+			Pauvr' petit' fill' riche humm humm<br>
+			<br>
+			Ce soir on s'est revu pour la dernière fois<br>
+			Ce soir on s'est aimé pour la dernière fois<br>
+			Il aurait mieux valu ne jamais se rencontrer<br>
+      <br>
+			Car maint'nant il va falloir oublier<br>
+			<br>
+			Tout' seule sur cett' plage<br>
+			Pauvr' petit' fill' riche<br>
+			Tout' seule si seul'<br>
+			Pauvr' petit' fill' riche<br>
+			<br>
+			Tout' seul' sur cett' plage où tous les deux<br>
+			Cet été nous étions si heureux<br>
+			Pauvr' petit' fill' riche humm humm<br>
+			<br>
+			Et longtemps longtemps on souffrira<br>
+			Car longtemps oui longtemps on s'aimera<br>
+			Il aurait mieux valu ne jamais se rencontrer<br>
+			Car maint'nant il va falloir oublier<br>
+			<br>
+			Notre amour<br>
+			Notre amour<br>
+			Notre amour<br>
+      Notre impossible amour<br>
+      Notre impossible amour<br>
+      <br>
+    </div>
+
+    <div id="youtube-audio"
+      data-video="8Yotobgj2mc"
+      data-autoplay="1"
+      data-loop="1"
+      >
+    </div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script>
+  </body>
+</html>
